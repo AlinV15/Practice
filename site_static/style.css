@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 1;
+}
+
+h1{
+    text-align: center;
+    color: rgb(16, 27, 74);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    padding: 10px auto;
+    margin: 20px;
+    text-shadow:  1px .5px .5px rgb(43, 81, 119);
+}
+
+body{
+    background: radial-gradient(circle at 100%, #34abeb, #a0f3e1 50%, #acffff 75%, #aadff4 25%);
+}
+
+p#description{
+  color: rgb(16, 27, 74);
+  font-size: 24px;
+  text-align: center;
+  padding: 10px auto;
+  margin: 20px;
+  margin-bottom: 50px;
+}
+
+form{
+    background-color: #13084a;
+    opacity: 0.6;
+    width: 900px;
+    margin: 0 auto;
+    color: ghostwhite;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+form p{
+ font-size: 24px; 
+ text-align: left;
+ padding: 40px;
+ font-weight: 800;
+}
+
+label{
+    font-size: 24px;
+    text-align: left;
+    padding: 0 40px;
+    padding-top: 40px;
+    font-weight: 800;
+}
+
+
+input, select{
+    font-size: 24px;
+    width:800px;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 5px;
+    border-color: #27233a;
+}
+
+#yes, #no{
+    width: 20px;
+}
+
+.radio{
+    padding: 0;
+}
+
+.rad{
+    padding-left: 40px ;
+}
+
+input[type="checkbox"] {
+    width: initial;
+}
+
+.ckbox{
+  padding-left: 40px;
+  margin: 10px 5px;
+}
+
+textarea{
+    width: 800px;
+    height: 200px;
+    text-align: justify;
+    margin: 0 auto;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+input[type="submit"]{
+    margin: 30px auto;
+    justify-content: center ;
+    height: 40px;
+    background-color: rgb(159, 201, 249);
+    color: rgb(2, 91, 91);
+    font-weight: 900;
+    text-shadow: 1px .5px .5px rgb(17, 99, 72);
+    transition: color .9s ease-in-out;
+}
+
+input[type="submit"]:hover{
+    color: rgba(1, 185, 1, 0.87);
+}
+
+
+
+

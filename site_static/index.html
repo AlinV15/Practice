@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Form for the best friend</h1>
+    <p id="description">Here I prepared for you a little place to reponde about our friendship</p>
+    <form action="" id="survey-form">
+
+       <label for="name" id="name-label">Name</label> <br/>
+       <input type="text" id="name" required placeholder="Write your name.Ex: Victor"> <br/>
+       
+       <label for="email" id="email-label">Email</label> <br/>
+       <input type="email" id="email" placeholder="Enter your email address. Ex: example@gmail.com"> <br/>
+       
+       <label for="number" id="number-label">Age</label> <br/>
+       <input type="number" id="number" min="0" max="150" placeholder="Enter your age. Ex: 29"> <br/>
+      
+       <label for="dropdown">Where like you to go in city in free time??</label>
+       <br/>
+       <select name="dropdown" id="dropdown">
+        <option value="cinema">Cinema</option>
+        <option value="park">Park</option>
+        <option value="forest">Forest</option>
+        <option value="pool">Pool</option>
+        <option value="mall">Mall</option>
+       </select> <br/>
+       
+       <p>Do you want to go in the city with me??</p>
+       
+       <div class="rad">
+         <input type="radio" id="yes" value="Yes" name="city" checked> 
+         <label for="yes" class="radio">Yes</label><br/>
+        </div>
+       <div class="rad">
+         <input type="radio" id="no" name="city" value="No"> 
+         <label for="no" class="radio">No</label><br/>
+        </div>
+       <p>What you want to eat with me??</p>
+
+       <div class="ckbox">
+        <input type="checkbox" id="pizza" value="food"/>
+        <label for="pizza">Pizza</label>
+       </div>
+       
+
+       <div class="ckbox">
+        <input type="checkbox" id="bigmac" value="food"/>
+        <label for="bigmac">Big Mac</label>
+       </div>
+       
+
+       <div class="ckbox">
+        <input type="checkbox" id="salad" value="food"/>
+        <label for="salad">Salad</label> 
+       </div>
+       
+
+       <div class="ckbox">
+        <input type="checkbox" id="shawrma" value="food"/>
+        <label for="shawrma">Shawrma</label> 
+       </div>
+       
+
+       <div class="ckbox">
+        <input type="checkbox" id="french-fries" value="food"/>
+        <label for="french-fries">French Fries</label> 
+       </div>
+       
+       <p id="comm">Comments</p>
+       <textarea name="comments" id="comments" placeholder="Enter here your message for me!"></textarea> <br/>
+
+       <input type="submit" name="submit" id="submit" value="Submit">
+    </form>
+</body>
+</html>
